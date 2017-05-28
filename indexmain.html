@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>The Smart box</title>
+		<link href="animate.css" rel="stylesheet">
+		<link href="s.css" rel="stylesheet">
+		<link rel="shortcut icon" href="logo.ico"> 
+	</head>
+		
+	<body>
+	<!-- Navigation bar -->			
+	<nav class="fixed-nav-bar">					
+    <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      	<li id="head"><a href="#heading">Smart Box</a></li>
+      	<li id="bar"><a href="#jk3" >Images</a></li>
+      	<li id="bar"><a href="#jk2" >To-do</a></li>
+      	<li id="bar"><a href="#jk1">Calculator</a></li>
+    </ul>
+  </div>
+</nav>
+	 <!--Heading-->
+	<div id="heading" style="height:60px;"></div>
+	<div class="header">
+	<center>  
+		<h1 id="retroshadow" class="animated bounceInDown">S</h1>
+		<h1 id="retroshadow1"class="animated bounceInDown1" >M</h1>
+	  	<h1 id="retroshadow2"class="animated bounceInDown2">A</h1>
+		<h1 id="retroshadow3"class="animated bounceInDown3">R</h1>
+		<h1 id="retroshadow4"class="animated bounceInDown4">T</h1>
+		<h1> </h1>
+		<h1 id="retroshadow5"class="animated bounceInDown5">B</h1>
+		<h1 id="retroshadow6"class="animated bounceInDown6">O</h1>
+		<h1 id="retroshadow7"class="animated bounceInDown7">X</h1> 
+		<h1> <img src="logo.ico" style="width:80px;height:50px;" class="animated bounceInDown8""></h1>  			
+	</center>			
+	</div> 
+	 <div id="b" >
+	    <!-- Input Box -->	
+	  <div id="top">
+	 	<div id="box">			
+				<center><input type="text" name="input1" id="input1" list="dd" placeholder="Enter the magic words.." class="animated tada">
+		</div>
+		<!-- Auto completion -->	
+		<datalist id="dd">
+    		<option value="add">
+    		<option value="sub">
+    		<option value="mult">
+    		<option value="div">
+    		<option value="todo">
+    		<option value="image">
+    		<option value="colour">
+    		<option value="google">   
+  		</datalist>		
+  		<!-- Question mark button -->		
+		<div id="rbtn">
+			<a href="learn.html" id="round-button"  class="animated tada" >?</a>
+		</div>
+	 </center>	
+	 <center>
+	 	<button id="btn1" class="animated zoomIn">Submit</button>
+	 	<button id="btn2" class="animated zoomIn">Clear</button>
+	 </center>
+	 
+	
+	<br></br>
+	</div>
+	<br></br>
+	<br></br>
+	<hr>
+	<div class="fullcontainer">
+	<div class="container" >
+		<!--Block 1 calculator -->
+		 <div id="jk1" style="height: 20px;"></div>
+		 <div id = "logo1"><img src="calc1.png" width="300px" height="300px"></img></div>
+		 <div id="block1"   >
+   		    <h2><u>Calculator</u></h2>
+			 	<label>
+					 <ol id="addlist"></ol>
+				 </label>	
+				 <center>
+						<button id="clr1">Clear</button>
+				 </center>
+		 </div>
+		 <br></br>
+	     <!--Block 2 Todo -->
+	     <div class="container1" >
+		 <div id="jk2" style="height: 20px;"></div>
+		
+		 <div id = "logo2"><img src="todo1.png" width="300px" height="300px"></img></div>
+		 <div id="block2" >
+				<h2><u>To-do list</u></h2>
+				<label>
+					<ol id="todolist"></ol>
+				</label>   
+				<center>
+					<button id="clr2">Clear</button>
+				</center>
+		  </div>
+		  
+		  <br></br>
+		  </div>
+		   <!--Block 3 Images -->
+		   
+		   <div id="jk3" style="height: 30px;"></div>
+		    <div id = "logo3"><img src="photo.png" width="300px" height="300px"></img></div>
+			<div id="block3" >
+				<h2><u>Images</u></h2>
+				<label >
+					<ol id="element" ></ol>
+				</label>
+				<center>
+					<button id="clr3">Clear</button>
+				</center>
+			</div>
+		</div>		
+		</div> 
+		<script src="testchall.js"></script>
+	 </div>
+   </body>	
+</html>
+
+
